@@ -7,6 +7,9 @@ function ItemForm({ onAddItem }) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    if(!name) {
+      return;
+    }
     onAddItem(name, quantity);
     setName("");
     setQuantity(1);
