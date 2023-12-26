@@ -27,7 +27,7 @@ function ItemForm({ onAddItem }) {
       <select
         className={classes["quantity"]}
         value={quantity}
-        onChange={(event) => setQuantity(event.target.value)}
+        onChange={(event) => setQuantity(Number(event.target.value))}
       >
         {options}
       </select>
