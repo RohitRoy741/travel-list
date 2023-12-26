@@ -1,0 +1,45 @@
+.item-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8a433;
+  height: 12vh;
+}
+
+.form-label {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.quantity {
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  margin-right: 10px;
+  background-color: #ffeed2;
+}
+
+.quantity > option {
+  background-color: #ffeed2;
+}
+
+.name {
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  margin-right: 10px;
+  background-color: #ffeed2;
+}
+
+.add-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 15px;
+  background-color: #9bc438;
+  font-weight: bold;
+}

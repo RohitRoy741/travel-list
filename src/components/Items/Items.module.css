@@ -1,0 +1,12 @@
+.items-list {
+  list-style-type: none;
+  padding: 30px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #442200;
+}

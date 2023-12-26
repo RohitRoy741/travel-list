@@ -1,0 +1,19 @@
+.item {
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  color: #e6ac28;
+}
+
+.cross-icon {
+  color: red;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.packed {
+  font-style: italic;
+  text-decoration-line: line-through;
+}

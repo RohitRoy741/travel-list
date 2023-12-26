@@ -1,0 +1,31 @@
+.item-actions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0px;
+}
+
+.sorting-options {
+  padding: 10px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #feefcb;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.clear-btn {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px 12px;
+  background-color: #feefcb;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+}
